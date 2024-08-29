@@ -130,8 +130,8 @@ select:hover,
 .skills-block {
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: column;
-    order: 0;
+    flex-direction: column-reverse;
+    /* order: 0; */
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
 }
 
@@ -139,7 +139,7 @@ select:hover,
     display: flex;
     gap: 20px;
     flex-direction: column;
-    order: 1;
+    /* order: 1; */
     
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
